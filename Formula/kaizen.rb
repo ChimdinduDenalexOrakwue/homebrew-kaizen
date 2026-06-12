@@ -7,16 +7,16 @@ class Kaizen < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ChimdinduDenalexOrakwue/kaizen/releases/download/v1.0.0/kaizen-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e703c6d90fd3cbaa611cfe9e1b787041cabe978247441b5de400f1e5121f0ac0"
+      sha256 "d37b92706ee6d4c29282153b8bc18e504200eaf0acffe207a95c9fb69bbf5ffe"
     else
       url "https://github.com/ChimdinduDenalexOrakwue/kaizen/releases/download/v1.0.0/kaizen-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2a60be911a68d4c43477fb13e847c77f6ca94aceda8d64f95feab2325680da58"
+      sha256 "6457314d72a5d51f49d3f066f7a9f8e2e551b5f4bd172628c94678a8398c918c"
     end
   end
 
   on_linux do
     url "https://github.com/ChimdinduDenalexOrakwue/kaizen/releases/download/v1.0.0/kaizen-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "aec37599214eee6acb8f435d4c5ddfd8e41f1bfb65b73405579f398eef12378c"
+    sha256 "cfe3094379dffe14c11637b4369b298a81a20f2698f528df7239e0da1b58b77f"
   end
 
   def install
